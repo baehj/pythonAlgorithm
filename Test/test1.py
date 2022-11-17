@@ -65,3 +65,26 @@ print(d, m, y, sep='-')
 # 문제20
 a, b= input().split('-')
 print(a+b)
+# 문제21
+s = input()
+print(s[0])
+print(s[1])
+print(s[2])
+print(s[3])
+print(s[4])
+# 문제22
+s = input()
+print(s[0:2])
+print(s[2:4])
+print(s[4:6])
+# 문제23
+h, m, s = input().split(':')
+print(m)
+# 문제24
+w1, w2 = input().split()
+s = w1 + w2
+print(s)
+# 문제25
+a, b = input().split()
+c = int(a) + int(b)
+print(c)
