@@ -50,3 +50,7 @@ a=int(a)
 b=int(b)
 print(a)
 print(b)
+# 문제16
+a, b = input().split()
+print(b, a)
+# 문제17
