@@ -54,3 +54,14 @@ print(b)
 a, b = input().split()
 print(b, a)
 # 문제17
+s = input()
+print(s, s, s)
+# 문제18
+a, b = input().split(':')
+print(a, b, sep=':')
+# 문제19
+y, m, d = input().split('.')
+print(d, m, y, sep='-')
+# 문제20
+a, b= input().split('-')
+print(a+b)
